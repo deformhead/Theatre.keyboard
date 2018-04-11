@@ -1,4 +1,4 @@
-export default function Keyboard() {
+export function Keyboard() {
 
     const codes = [];
     const names = [];
