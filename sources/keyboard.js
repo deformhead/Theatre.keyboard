@@ -1,4 +1,4 @@
-export function Keyboard() {
+function Keyboard() {
 
     const codes = [];
     const names = [];
@@ -72,4 +72,9 @@ export function Keyboard() {
 
     this.listen = listen;
     this.update = update;
+}
+
+export {
+
+    Keyboard
 };
