@@ -74,7 +74,5 @@ function Keyboard() {
     this.update = update;
 }
 
-export {
-
-    Keyboard
-};
+// exports current module as an object
+export {Keyboard};
